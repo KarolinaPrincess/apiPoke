@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Estilo personalizado para centrar contenido vertical y horizontalmente */
+        .center-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ajusta la altura para centrar verticalmente */
+        }
+
+        /* Alinear listas al lado izquierdo */
+        .list-group-flush {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <a href="javascript:history.back()" class="btn btn-primary">
+        <span class="glyphicon glyphicon-arrow-left"></span><-Regresar
+    </a>
+</div>
+    <div class="container center-content">
+        <div class="row row-cols-md-3 row-cols-2">
+            <div class="col-sm-4 p-5">
+                <a href="detalles.html">
+                    <div class="card" style="width: 500px;; background: #f7dc6f;">
+                        <div class="card-body text-center">
+                            <div class="container mt-3">
+                                <img id="imagenPokemon" class="card-img-top" src="img/1.png" alt="Card image" style="width:100%">
+                                <h4 id="nombrePokemon" class="card-title"><dt></dt></h4>
+                                <h6 id="especiePokemon"><kbd></kbd></h6>
+                                <br>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs center" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#baseStats">Base Stats</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="about" class="container tab-pane active"><br>
+                                        <ul class="list-group-flush">
+                                            <li id="speciesPokemons" class="list-group-item"></li>
+                                            <li id="heightPokemons" class="list-group-item">Height :</li>
+                                            <li id="weightPokemons" class="list-group-item">Weight :</li>
+                                            <ul id="abilitiesPokemons" class="list-group-item">Abilities :</ul>
+                                            <br>
+                                            <li class="list-group-item"><dt>Breeding</dt></li>
+                                            <br>
+                                            <li id="genderPokemons" class="list-group-item">Gender : </li>
+                                            <li id="eggGroupsPokemon" class="list-group-item">Egg Groups :</li>
+                                            <li class="list-group-item">Egg Cycle :</li>
+                                        </ul>
+                                    </div>
+                                    <div id="baseStats" class="container tab-pane fade"><br>
+                                        <ul class="list-group-flush">
+                                            <li id="hpPokemon" class="list-group-item">HP :</li>
+                                            <li id="ataquePokemon" class="list-group-item">Attack :</li>
+                                            <li id="defensaPokemon" class="list-group-item">Defense :</li>
+                                            <li id="spAtaquePokemon" class="list-group-item">Sp.Atk :</li>
+                                            <li id="spDefensaPokemon" class="list-group-item">Sp.Def :</li>
+                                            <li id="speedPokemon" class="list-group-item">Speed :</li>
+                                            <li class="list-group-item">Total :</li>
+                                            <br>
+                                            <li class="list-group-item"><dt>Type defenses</dt></li>
+                                            <br>
+                                            <li id="tipoDefensaPokemon" class="list-group-item"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="Untitled-1.js"></script>
+</body>
+</html>
