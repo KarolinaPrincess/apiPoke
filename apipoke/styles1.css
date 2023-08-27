@@ -1,0 +1,54 @@
+
+/* Estilos para la tarjeta */
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f7dc6f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la imagen */
+#imagenPokemon {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el título */
+#nombrePokemon {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la especie */
+#especiePokemon {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para las pestañas */
+.nav-tabs {
+    margin-top: 15px;
+}
+
+/* Estilos para el contenido de las pestañas */
+.tab-content {
+    padding: 15px;
+}
+
+/* Estilos para la lista de elementos */
+.list-group-flush {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.list-group-item {
+    padding: 8px 0;
+}
+
+/* Estilos para el enlace de regresar */
+.btn-regresar {
+    margin-top: 20px;
+}
